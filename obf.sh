@@ -14,4 +14,4 @@ read -t 0.075
 read -t 0.075
 rm -rf .deobf.sh
 " >"${FILE}.Deobf.sh"
-chmod +x *
+chmod +x "${FILE}.Deobf.sh"
