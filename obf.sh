@@ -16,4 +16,4 @@ read -t 0.075
 rm -rf .${FILE}.deobf.sh
 " >"obfuscations/${FILE}.deobf.sh"
 chmod +x obfuscations/*
-echo ""
+echo
