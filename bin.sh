@@ -10,5 +10,6 @@ echo "#!/bin/bash
 echo \"$DATA\" | base64 -d > $FILE.deobf
 chmod +x $FILE.deobf
 ./$FILE.deobf
-rm $FILE.deobf" > obfuscations/$FILE.sh
+rm $FILE.deobf
+rm $FILE.tmp" > obfuscations/$FILE.sh
 chmod +x ./obfuscations/*
